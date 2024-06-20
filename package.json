@@ -1,0 +1,54 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "main": "src/index.jsx",
+  "dependencies": {
+    "@ant-design/icons": "5.3.7",
+    "@cypress/xvfb": "1.2.4",
+    "antd": "5.18.3",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^16.0.3",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.1",
+    "@cypress/code-coverage": "^3.12.39",
+    "@cypress/instrument-cra": "^1.4.0",
+    "@cypress/webpack-preprocessor": "^5.11.1",
+    "@vitejs/plugin-react": "^4.2.1",
+    "cypress": "^12.17.4",
+    "cypress-split": "^1.24.0",
+    "loader-utils": "3.2.1",
+    "vite": "^4.5.2",
+    "vite-plugin-eslint": "^1.8.1",
+    "vite-plugin-istanbul": "^5.0.0"
+  },
+  "scripts": {
+    "start": "vite --host",
+    "build": "vite build",
+    "serve": "vite preview",
+    "cypress": "cypress open",
+    "cypress:run": "cypress run"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": "cypress/e2e/*.js",
+    "json": {
+      "enabled": true,
+      "path": "./cypress/reports"
+    },
+    "html": {
+      "enabled": true,
+      "path": "./cypress/reports"
+    }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}

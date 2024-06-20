@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1718909348646" clover="3.2.0">
+  <project timestamp="1718909348646" name="All files">
+    <metrics statements="39" coveredstatements="35" conditionals="15" coveredconditionals="15" methods="13" coveredmethods="9" elements="67" coveredelements="59" complexity="0" loc="39" ncloc="39" packages="2" files="6" classes="6"/>
+    <package name="src">
+      <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+      <file name="App.jsx" path="/project/workspace/src/App.jsx">
+        <metrics statements="4" coveredstatements="4" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="192" type="cond" truecount="3" falsecount="0"/>
+        <line num="7" count="24" type="stmt"/>
+        <line num="16" count="24" type="stmt"/>
+        <line num="18" count="24" type="stmt"/>
+      </file>
+      <file name="index.jsx" path="/project/workspace/src/index.jsx">
+        <metrics statements="1" coveredstatements="1" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+        <line num="6" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="src.components">
+      <metrics statements="34" coveredstatements="30" conditionals="12" coveredconditionals="12" methods="11" coveredmethods="7"/>
+      <file name="Login.jsx" path="/project/workspace/src/components/Login.jsx">
+        <metrics statements="5" coveredstatements="5" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="2"/>
+        <line num="1" count="192" type="cond" truecount="3" falsecount="0"/>
+        <line num="4" count="24" type="stmt"/>
+        <line num="5" count="24" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="13" count="24" type="stmt"/>
+      </file>
+      <file name="MenuComponent.jsx" path="/project/workspace/src/components/MenuComponent.jsx">
+        <metrics statements="10" coveredstatements="8" conditionals="3" coveredconditionals="3" methods="3" coveredmethods="2"/>
+        <line num="1" count="216" type="cond" truecount="3" falsecount="0"/>
+        <line num="8" count="24" type="stmt"/>
+        <line num="64" count="48" type="stmt"/>
+        <line num="65" count="48" type="stmt"/>
+        <line num="66" count="48" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="68" count="0" type="stmt"/>
+        <line num="70" count="48" type="stmt"/>
+        <line num="78" count="24" type="stmt"/>
+        <line num="79" count="24" type="stmt"/>
+      </file>
+      <file name="Page1.jsx" path="/project/workspace/src/components/Page1.jsx">
+        <metrics statements="11" coveredstatements="10" conditionals="3" coveredconditionals="3" methods="2" coveredmethods="1"/>
+        <line num="1" count="192" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="24" type="stmt"/>
+        <line num="4" count="24" type="stmt"/>
+        <line num="12" count="24" type="stmt"/>
+        <line num="19" count="24" type="stmt"/>
+        <line num="25" count="24" type="stmt"/>
+        <line num="30" count="24" type="stmt"/>
+        <line num="36" count="24" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="77" count="24" type="stmt"/>
+        <line num="78" count="24" type="stmt"/>
+      </file>
+      <file name="Page2.jsx" path="/project/workspace/src/components/Page2.jsx">
+        <metrics statements="8" coveredstatements="7" conditionals="3" coveredconditionals="3" methods="4" coveredmethods="2"/>
+        <line num="1" count="216" type="cond" truecount="3" falsecount="0"/>
+        <line num="3" count="24" type="stmt"/>
+        <line num="4" count="360" type="stmt"/>
+        <line num="8" count="24" type="stmt"/>
+        <line num="11" count="24" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="66" count="24" type="stmt"/>
+        <line num="67" count="24" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>
